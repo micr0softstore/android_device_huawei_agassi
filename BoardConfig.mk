@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/agassi/
+DEVICE_PATH := device/huawei/agassi
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -45,7 +45,7 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_CONFIG := _defconfig
-TARGET_KERNEL_SOURCE := kernel/agassi/
+TARGET_KERNEL_SOURCE := kernel/huawei/agassi
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

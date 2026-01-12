@@ -1,4 +1,13 @@
-# Android device tree for Agassi  ()
+# Android device tree for Huawei MediaPad T3 10  (Agassi) 
+
+Main goal: compatible with engineering unlocked bootloader.
+
+Status: unknown
+
+Kernel: Official huawei kernel compiled without lcdkit as eng bootloader does not support that.
+
+Bugs:
+-> Even if this thing boots touch will be broken for sure
 
 ```
 #

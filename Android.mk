@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),)
+ifeq ($(TARGET_DEVICE),agassi)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
